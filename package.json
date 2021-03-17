@@ -4,10 +4,19 @@
     "tailwind-jit",
     "windicss"
   ],
-  "dependencies": {
-    "vue": "3.0.7",
+  "scripts": {
+    "dev": "run-p *:dev",
+    "build": "run-p *:build",
+    "windicss:build": "npm -C windicss run build",
+    "tailwind-jit:build": "npm -C tailwind-jit run build",
+    "windicss:dev": "npm -C windicss run dev",
+    "tailwind-jit:dev": "npm -C tailwind-jit run dev"
+  },
+  "devDependencies": {
     "@vitejs/plugin-vue": "1.1.5",
     "@vue/compiler-sfc": "3.0.7",
-    "vite": "2.0.5"
+    "vite": "2.0.5",
+    "vue": "3.0.7",
+    "npm-run-all": "4.1.5"
   }
 }
