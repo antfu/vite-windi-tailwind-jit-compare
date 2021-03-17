@@ -12,7 +12,7 @@ http://localhost:3200/ - Tailwind CSS JIT
 
 edit `App.vue` will trigger updates for both servers.
 
-> The current source file is pretty small and simple, I would love to receive contributions of snippets for more complex example. Thanks.
+> The current source file is pretty small and simple, I would love to receive contributions of snippets for a more complex example. Thanks.
 
 ## Configuration
 
