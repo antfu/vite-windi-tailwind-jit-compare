@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-jit",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/jit": "0.1.2",
+    "postcss": "8.2.8",
+    "tailwindcss": "2.0.3"
+  }
+}
