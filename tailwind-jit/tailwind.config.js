@@ -4,6 +4,7 @@ module.exports = {
   purge: [
     '../*.vue',
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
