@@ -7,8 +7,7 @@
     "serve": "vite preview"
   },
   "devDependencies": {
-    "@tailwindcss/jit": "0.1.18",
-    "postcss": "8.2.9",
-    "tailwindcss": "2.0.4"
+    "postcss": "8.3.6",
+    "tailwindcss": "2.2.7"
   }
 }
